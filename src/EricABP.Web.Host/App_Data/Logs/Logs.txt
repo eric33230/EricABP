@@ -1,0 +1,367 @@
+DEBUG 2018-10-12 01:23:19,003 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-12 01:23:19,257 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-12 01:23:19,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.Web.Host.Startup.EricABPWebHostModule, EricABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPWebCoreModule, EricABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPApplicationModule, EricABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPCoreModule, EricABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EntityFrameworkCore.EricABPEntityFrameworkModule, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:19,326 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-12 01:23:19,483 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:23:19,484 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:23:19,484 [1    ] o.Configuration.LanguageManagementConfig - Converted EricABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:23:19,484 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:23:20,363 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: EricABP.EntityFrameworkCore.EricABPDbContext, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:23:21,745 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-12 01:23:22,085 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-12 01:23:22,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-12 01:23:22,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EricABP
+DEBUG 2018-10-12 01:23:22,290 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-12 01:23:22,631 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-12 01:23:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-12 01:23:22,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-12 01:23:22,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.CreateUserDto
+DEBUG 2018-10-12 01:23:22,721 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.UserDto
+DEBUG 2018-10-12 01:23:22,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-12 01:23:22,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-12 01:23:22,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-12 01:23:22,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.PermissionDto
+DEBUG 2018-10-12 01:23:22,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.RoleDto
+DEBUG 2018-10-12 01:23:22,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-12 01:23:22,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.TenantDto
+INFO  2018-10-12 01:23:30,019 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-12 01:23:30,019 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-12 01:23:30,132 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.9324ms 200 
+WARN  2018-10-12 01:23:30,263 [12   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:23:30,266 [12   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:23:30,955 [12   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:23:30,960 [12   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:23:31,057 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 974.3952ms 404 
+INFO  2018-10-12 01:24:46,802 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+WARN  2018-10-12 01:24:46,825 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:24:46,829 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:24:46,876 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.8624ms 200 text/html
+INFO  2018-10-12 01:24:46,910 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+WARN  2018-10-12 01:24:46,912 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:24:46,914 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:24:46,937 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-10-12 01:24:46,944 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.9611ms 304 text/css
+INFO  2018-10-12 01:24:47,519 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-10-12 01:24:47,522 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+WARN  2018-10-12 01:24:47,525 [19   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:24:47,527 [17   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:24:47,531 [19   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:24:47,536 [17   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:24:47,538 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-10-12 01:24:47,542 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.7782ms 304 application/javascript
+INFO  2018-10-12 01:24:47,547 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-10-12 01:24:47,562 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.3713ms 304 application/javascript
+INFO  2018-10-12 01:24:48,086 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2018-10-12 01:24:48,091 [17   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:24:48,116 [17   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:24:48,496 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 410.2764ms 200 application/json;charset=utf-8
+DEBUG 2018-10-12 01:26:20,057 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-12 01:26:20,167 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-12 01:26:20,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.Web.Host.Startup.EricABPWebHostModule, EricABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPWebCoreModule, EricABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPApplicationModule, EricABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPCoreModule, EricABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EntityFrameworkCore.EricABPEntityFrameworkModule, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:20,200 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-12 01:26:20,294 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:26:20,294 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:26:20,294 [1    ] o.Configuration.LanguageManagementConfig - Converted EricABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:26:20,294 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:26:20,706 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: EricABP.EntityFrameworkCore.EricABPDbContext, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:26:22,005 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-12 01:26:22,274 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-12 01:26:22,337 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-12 01:26:22,376 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EricABP
+DEBUG 2018-10-12 01:26:22,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-12 01:26:22,632 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-12 01:26:22,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-12 01:26:22,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-12 01:26:22,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.CreateUserDto
+DEBUG 2018-10-12 01:26:22,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.UserDto
+DEBUG 2018-10-12 01:26:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-12 01:26:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-12 01:26:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-12 01:26:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.PermissionDto
+DEBUG 2018-10-12 01:26:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.RoleDto
+DEBUG 2018-10-12 01:26:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-12 01:26:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.TenantDto
+INFO  2018-10-12 01:26:32,158 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:26:32,158 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:26:32,158 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-12 01:26:32,158 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-12 01:26:32,292 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.0895ms 200 
+WARN  2018-10-12 01:26:32,427 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,427 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,427 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,431 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,433 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,434 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,890 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:32,893 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:26:32,911 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 774.9311ms 404 
+INFO  2018-10-12 01:26:32,930 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 794.8039ms 200 text/html
+INFO  2018-10-12 01:26:32,932 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 794.7865ms 200 text/html
+INFO  2018-10-12 01:26:32,975 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-10-12 01:26:32,983 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-10-12 01:26:33,005 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+WARN  2018-10-12 01:26:33,010 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,016 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,021 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,026 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,029 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,059 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:26:33,081 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-10-12 01:26:33,094 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-10-12 01:26:33,114 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-10-12 01:26:33,123 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.3874ms 304 text/css
+INFO  2018-10-12 01:26:33,131 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 132.6794ms 304 application/javascript
+INFO  2018-10-12 01:26:33,138 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 147.6095ms 304 application/javascript
+INFO  2018-10-12 01:26:33,808 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2018-10-12 01:26:33,812 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:26:33,816 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:26:34,381 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 567.8865ms 200 application/json;charset=utf-8
+DEBUG 2018-10-12 01:29:15,452 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-12 01:29:15,555 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-12 01:29:15,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.Web.Host.Startup.EricABPWebHostModule, EricABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPWebCoreModule, EricABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,577 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPApplicationModule, EricABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPCoreModule, EricABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EntityFrameworkCore.EricABPEntityFrameworkModule, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:15,584 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-12 01:29:15,672 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:15,672 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:15,672 [1    ] o.Configuration.LanguageManagementConfig - Converted EricABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:15,672 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:16,073 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: EricABP.EntityFrameworkCore.EricABPDbContext, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:17,237 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-12 01:29:17,446 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-12 01:29:17,502 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-12 01:29:17,528 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EricABP
+DEBUG 2018-10-12 01:29:17,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-12 01:29:17,750 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-12 01:29:17,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-12 01:29:17,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-12 01:29:17,808 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.CreateUserDto
+DEBUG 2018-10-12 01:29:17,808 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.UserDto
+DEBUG 2018-10-12 01:29:17,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-12 01:29:17,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-12 01:29:17,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-12 01:29:17,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.PermissionDto
+DEBUG 2018-10-12 01:29:17,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.RoleDto
+DEBUG 2018-10-12 01:29:17,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-12 01:29:17,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.TenantDto
+INFO  2018-10-12 01:29:25,132 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-12 01:29:25,132 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:29:25,132 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:29:25,132 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-12 01:29:25,247 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.4487ms 200 
+WARN  2018-10-12 01:29:25,357 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,357 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,357 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,369 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,370 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,371 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,701 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,703 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:29:25,714 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 597.8535ms 404 
+INFO  2018-10-12 01:29:25,734 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 616.8417ms 200 text/html
+INFO  2018-10-12 01:29:25,735 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 616.8374ms 200 text/html
+INFO  2018-10-12 01:29:25,824 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-10-12 01:29:25,835 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+WARN  2018-10-12 01:29:25,859 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,863 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,866 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,878 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:29:25,882 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+WARN  2018-10-12 01:29:25,885 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:25,889 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:29:25,915 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-10-12 01:29:25,917 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-10-12 01:29:25,919 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-10-12 01:29:25,937 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.5667ms 304 application/javascript
+INFO  2018-10-12 01:29:25,939 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.7857ms 304 application/javascript
+INFO  2018-10-12 01:29:25,942 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.9078ms 304 text/css
+INFO  2018-10-12 01:29:26,442 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2018-10-12 01:29:26,445 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:29:26,448 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:29:26,746 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 303.5794ms 200 application/json;charset=utf-8
+DEBUG 2018-10-12 01:29:55,996 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-12 01:29:56,123 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-12 01:29:56,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.Web.Host.Startup.EricABPWebHostModule, EricABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPWebCoreModule, EricABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPApplicationModule, EricABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPCoreModule, EricABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EntityFrameworkCore.EricABPEntityFrameworkModule, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:56,160 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-12 01:29:56,246 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:56,246 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:56,246 [1    ] o.Configuration.LanguageManagementConfig - Converted EricABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:56,246 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:29:56,665 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: EricABP.EntityFrameworkCore.EricABPDbContext, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:29:57,669 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-12 01:29:57,877 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-12 01:29:57,971 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-12 01:29:57,997 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EricABP
+DEBUG 2018-10-12 01:29:58,051 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-12 01:29:58,252 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-12 01:29:58,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-12 01:29:58,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-12 01:29:58,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.CreateUserDto
+DEBUG 2018-10-12 01:29:58,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.UserDto
+DEBUG 2018-10-12 01:29:58,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-12 01:29:58,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-12 01:29:58,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-12 01:29:58,311 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.PermissionDto
+DEBUG 2018-10-12 01:29:58,311 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.RoleDto
+DEBUG 2018-10-12 01:29:58,311 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-12 01:29:58,312 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.TenantDto
+INFO  2018-10-12 01:30:05,322 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-12 01:30:05,322 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-12 01:30:05,322 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:30:05,427 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.6258ms 200 
+WARN  2018-10-12 01:30:05,542 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:05,542 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:05,544 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:30:05,545 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:30:05,910 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:05,912 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:30:05,926 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 616.344ms 404 
+INFO  2018-10-12 01:30:05,948 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 638.595ms 200 text/html
+INFO  2018-10-12 01:30:06,023 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-10-12 01:30:06,025 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-10-12 01:30:06,028 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+WARN  2018-10-12 01:30:06,034 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,039 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,043 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,046 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,048 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,055 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:30:06,092 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-10-12 01:30:06,093 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-10-12 01:30:06,095 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-10-12 01:30:06,117 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.8868ms 304 text/css
+INFO  2018-10-12 01:30:06,119 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.6594ms 304 application/javascript
+INFO  2018-10-12 01:30:06,120 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 103.218ms 304 application/javascript
+INFO  2018-10-12 01:30:06,612 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2018-10-12 01:30:06,614 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:30:06,617 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:30:07,006 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 394.2878ms 200 application/json;charset=utf-8
+DEBUG 2018-10-12 01:32:12,231 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-12 01:32:12,327 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-12 01:32:12,364 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.Web.Host.Startup.EricABPWebHostModule, EricABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPWebCoreModule, EricABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPApplicationModule, EricABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EricABPCoreModule, EricABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: EricABP.EntityFrameworkCore.EricABPEntityFrameworkModule, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:12,376 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-12 01:32:12,467 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:32:12,467 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:32:12,467 [1    ] o.Configuration.LanguageManagementConfig - Converted EricABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:32:12,467 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-12 01:32:12,828 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: EricABP.EntityFrameworkCore.EricABPDbContext, EricABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-12 01:32:13,746 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-12 01:32:13,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-12 01:32:14,009 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-12 01:32:14,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: EricABP
+DEBUG 2018-10-12 01:32:14,071 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-12 01:32:14,261 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-12 01:32:14,322 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-12 01:32:14,322 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-12 01:32:14,331 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.CreateUserDto
+DEBUG 2018-10-12 01:32:14,332 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Users.Dto.UserDto
+DEBUG 2018-10-12 01:32:14,333 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-12 01:32:14,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-12 01:32:14,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-12 01:32:14,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.PermissionDto
+DEBUG 2018-10-12 01:32:14,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.Roles.Dto.RoleDto
+DEBUG 2018-10-12 01:32:14,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-12 01:32:14,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - EricABP.MultiTenancy.Dto.TenantDto
+INFO  2018-10-12 01:32:21,130 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-12 01:32:21,130 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:32:21,130 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-12 01:32:21,130 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-12 01:32:21,315 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.573ms 200 
+WARN  2018-10-12 01:32:21,406 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,406 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,406 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,409 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,411 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,412 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,773 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,784 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:32:21,797 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 684.9195ms 404 
+INFO  2018-10-12 01:32:21,809 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 697.3122ms 200 text/html
+INFO  2018-10-12 01:32:21,810 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 697.202ms 200 text/html
+INFO  2018-10-12 01:32:21,898 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-10-12 01:32:21,901 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+WARN  2018-10-12 01:32:21,908 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,928 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,943 [11   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,951 [10   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:32:21,952 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+WARN  2018-10-12 01:32:21,966 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:21,973 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:32:21,989 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-10-12 01:32:21,991 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-10-12 01:32:21,994 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-10-12 01:32:22,035 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.8619ms 304 application/javascript
+INFO  2018-10-12 01:32:22,037 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.6516ms 304 application/javascript
+INFO  2018-10-12 01:32:22,039 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.9219ms 304 text/css
+INFO  2018-10-12 01:32:22,530 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2018-10-12 01:32:22,532 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2018-10-12 01:32:22,534 [13   ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2018-10-12 01:32:22,855 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 326.3543ms 200 application/json;charset=utf-8
